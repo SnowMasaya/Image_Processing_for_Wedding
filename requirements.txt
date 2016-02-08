@@ -1,0 +1,10 @@
+numpy
+chainer
+ipython
+notebook
+jinja2
+pyzmq
+tornado
+PyYAML
+pylab
+Pillow
