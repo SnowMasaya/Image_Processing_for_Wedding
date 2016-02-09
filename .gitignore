@@ -61,5 +61,6 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 my_env/
-Imaging-1.1.7
 PCV
+data/
+__MACOSX

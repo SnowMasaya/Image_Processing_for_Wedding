@@ -5,9 +5,11 @@ This tool is making Dialogue Model for Slack
 
 Thsi tool has 3 functions
 
-1: Slack Communication
-2: Learning by the Chainer 
-3: Collect Twitter Data
+PrePare Change Process
+
+```
+find PCV/ -name "*.py" | xargs 2to3 -
+```
 
 ## Description
 This tool is making the Dialogue Model
