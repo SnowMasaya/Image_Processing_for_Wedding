@@ -1,52 +1,25 @@
 Image_Processing_for_Wedding
 ====
 
-This tool is making Dialogue Model for Slack
-
-Thsi tool has 3 functions
-
-PrePare Change Process
-
-```
-find PCV/ -name "*.py" | xargs 2to3 -
-```
-
 ## Description
-This tool is making the Dialogue Model
+This is the Computer Vision Python Code 
 
 If you see the detail about it, you see the below<br> 
 
-http://qiita.com/drafts/79ca7deeb976f50126d7
+http://qiita.com/GushiSnow/private/1b855f94bd43001e85e3
 
 #
 ### Install
 
-If you don't install pyenv and virtualenv you have to install bellow
 ####Prepare Install
-linux
-```
-apt-get install pyenv 
-apt-get install virtualenv 
-```
-Mac
-```
-brew install pyenv 
-brew install virtualenv 
-```
-
-####Prepare Inastall2
-```
-pyenv install 3.4.1
-pyenv rehash
-pyenv local 3.4.1
-virtualenv -p ~/.pyenv/versions/3.4.1/bin/python3.4 my_env
-source my_env/bin/activate
-
-```
 
 ```
 pip install -r requirement.txt 
 ```
+
+Computer Vision Reference
+
+https://github.com/jesolem/PCV
 
 ####Prepare the Code
 
@@ -55,8 +28,6 @@ Computer Vision Sample Code
 ```
 git clone https://github.com/jesolem/PCV
 ```
-
-
 
 ####Prepare the Data
 
@@ -73,7 +44,6 @@ Installing a library bellow
 ```
     Python 3.4+
 	numpy
-    chainer
     ipython
     notebook
     jinja2
@@ -140,3 +110,4 @@ THE SOFTWARE.
 ### References 
 #
 >[Programming Computer Vision with Python]http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf<br>
+>[jesolem/PCV]https://github.com/jesolem/PCV
